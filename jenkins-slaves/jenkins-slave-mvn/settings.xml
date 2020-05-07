@@ -2,15 +2,8 @@
   <mirrors>
     <mirror>
       <id>maven-public</id>
-      <url>http://nexus:8081/repository/maven-public/</url>
-      <mirrorOf>*</mirrorOf>
+      <url>https://services.csa.spawar.navy.mil/artifactory/csa-remote-maven/</url>
+      <mirrorOf>https://repo.maven.apache.org/maven2</mirrorOf>
     </mirror>
   </mirrors>
-  <servers>
-    <server>
-      <id>nexus</id>
-      <username>admin</username>
-      <password>admin123</password>
-    </server>
-  </servers>
 </settings>
