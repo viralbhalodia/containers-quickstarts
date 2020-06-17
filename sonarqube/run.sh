@@ -4,7 +4,7 @@ set -x
 set -e
 
 ## If the mounted data volume is empty, populate it from the default data
-cp -a /opt/sonarqube/data-init/* /opt/sonarqube/data/
+cp /opt/sonarqube/data-init/* /opt/sonarqube/data/
 
 ## Link the plugins directory from the mounted volume
 rm -rf /opt/sonarqube/extensions/plugins
